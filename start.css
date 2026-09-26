@@ -1,0 +1,66 @@
+h1 {
+  background-color: #4c5051;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+main {
+  background-color: rgb(76, 80, 81);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  width: 100px;
+  background-color: rgb(63, 62, 62);
+  cursor: pointer;
+  padding: 2px;
+  border: 50px;
+  border-radius: 10px;
+  font-size: 10px;
+  opacity: 80%;
+}
+button:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(background-photo.jpeg);
+  background-size: cover;
+  background-position: center 56%;
+}
+footer {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: #4c5051;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  height: 36.9px;
+  a {
+    transform: scaleY(1);
+  }
+  font-size: 30px;
+  padding: 10px;
+}
+
+a {
+  color: black;
+}
+hr {
+  border: 100px;
+  border-top: 1px solid black;
+}
