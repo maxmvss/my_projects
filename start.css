@@ -96,6 +96,7 @@ button {
   transition: 0.5s;
   color: white;
   width: 150px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .darkred:hover {
@@ -109,6 +110,7 @@ button {
   transition: 0.5s;
   color: white;
   width: 150px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .purple:hover {
@@ -121,6 +123,7 @@ button {
   transition: 0.5s;
   color: white;
   width: 150px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .blue:hover {
@@ -135,6 +138,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .white2:hover {
@@ -149,6 +153,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .pink:hover {
@@ -163,6 +168,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .black:hover {
@@ -177,6 +183,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .blue2:hover {
@@ -191,6 +198,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .lightblue:hover {
@@ -205,6 +213,7 @@ button {
   color: white;
   width: 150px;
   text-align: center;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 h2 {
   text-align: center;
