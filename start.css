@@ -3,13 +3,65 @@ h1 {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
   color: white;
 }
+
 img {
-  width: 400px;
-  border-radius: 10px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+a img {
+  transition: 0.5s;
+}
+
+a img:hover {
+  transform: scale(1.2);
+}
+
+img {
+  animation: zoom 1s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.porsche {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.porsche {
+  flex: 1;
+}
+
+.h2 {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.h2 {
+  flex: 1;
 }
 
 main {
@@ -17,8 +69,8 @@ main {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+  padding: 0.5px;
   margin: 10px;
-  padding: 1px;
   font-family: "Times New Roman", Times, serif;
   color: white;
 }
@@ -33,16 +85,56 @@ button {
   font-size: 10px;
   opacity: 80%;
 }
+
 .red:hover {
   background-color: rgb(255, 0, 0);
   box-shadow: 0 4px 12px black;
   transform: scale(1.5);
   transition: 0.5s;
 }
-
 .red {
   transition: 0.5s;
   color: white;
+  width: 150px;
+}
+
+.darkred:hover {
+  background-color: rgb(124, 47, 47);
+  box-shadow: 0 4px 12px black;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.darkred {
+  transition: 0.5s;
+  color: white;
+  width: 150px;
+}
+
+.purple:hover {
+  background-color: rgb(126, 57, 210);
+  box-shadow: 0 4px 12px black;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.purple {
+  transition: 0.5s;
+  color: white;
+  width: 150px;
+}
+
+.blue:hover {
+  background-color: rgb(37, 120, 204);
+  box-shadow: 0 4px 12px black;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.blue {
+  transition: 0.5s;
+  color: white;
+  width: 150px;
+  text-align: center;
 }
 
 h2 {
@@ -66,6 +158,7 @@ footer {
   border-radius: 10px;
   height: 42px;
   padding: 10px;
+  margin: 10px;
 }
 
 .orange:hover {
@@ -78,7 +171,7 @@ footer {
 
 .orange {
   font-size: xx-large;
-  width: 200px;
+  width: 400px;
   transition: 0.5s;
 }
 
@@ -92,7 +185,7 @@ footer {
 
 .white {
   font-size: xx-large;
-  width: 200px;
+  width: 400px;
   transition: 0.5s;
 }
 
@@ -105,7 +198,7 @@ footer {
 }
 
 .green {
-  width: 200px;
+  width: 400px;
   font-size: xx-large;
   transition: 0.5s;
 }
@@ -113,36 +206,6 @@ footer {
 hr {
   border: black;
   border-top: 1px solid black;
-}
-
-a img {
-  transition: 0.5s;
-}
-
-a img:hover {
-  transform: scale(1.5);
-}
-
-img {
-  animation: zoom 1s;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-h3 {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  padding: 20px;
-  color: white;
 }
 
 p {
