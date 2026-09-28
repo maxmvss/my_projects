@@ -7,58 +7,14 @@ h1 {
   text-align: center;
   color: white;
 }
-
-.porsche img {
-  width: 250px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-}
-
-a img {
-  transition: 0.5s;
-}
-
-a img:hover {
-  transform: scale(1.2);
-}
-img {
-  animation: zoom 1s;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-.porsche {
-  text-align: center;
-  display: flex;
-  gap: 30px;
-  color: white;
+p {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
+  border-radius: 10px;
+  padding: 10px;
   margin: 10px;
-  font-family: "Times New Roman", Times, serif;
 }
-.porsche p {
-  text-align: center;
-  display: flex;
-  gap: 30px;
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  margin: 10px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.h2 {
-  flex: 1;
-}
-
 main {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -70,16 +26,50 @@ main {
   color: white;
 }
 
+header p {
+  color: white;
+}
+
+.porsche {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.porsche a {
+  width: auto;
+  padding: 0;
+  background: transparent;
+}
+
+.porsche img {
+  display: block;
+  width: 250px;
+  transition: transform 0.3s;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgb(141, 138, 138);
+}
+.porsche img:hover {
+  transform: scale(1.1);
+}
+.porsche p {
+  flex: 1;
+  margin: 0;
+  color: white;
+}
 a {
+  display: inline-block;
   width: 100px;
   background-color: rgb(63, 62, 62);
   cursor: pointer;
   padding: 2px;
-  border: 50px;
+  border: none;
   border-radius: 10px;
   font-size: 10px;
-  opacity: 80%;
+  opacity: 0.8;
   color: white;
+  text-align: center;
 }
 
 .red:hover {
@@ -297,8 +287,4 @@ footer {
 hr {
   border: black;
   border-top: 1px solid black;
-}
-
-p {
-  color: white;
 }
