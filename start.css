@@ -8,7 +8,7 @@ h1 {
   color: white;
 }
 
-img {
+.porsche img {
   width: 250px;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
@@ -44,12 +44,7 @@ img {
   margin: 10px;
   font-family: "Times New Roman", Times, serif;
 }
-
-.porsche {
-  flex: 1;
-}
-
-.h2 {
+.porsche p {
   text-align: center;
   display: flex;
   gap: 30px;
@@ -75,7 +70,7 @@ main {
   color: white;
 }
 
-button {
+a {
   width: 100px;
   background-color: rgb(63, 62, 62);
   cursor: pointer;
@@ -84,6 +79,7 @@ button {
   border-radius: 10px;
   font-size: 10px;
   opacity: 80%;
+  color: white;
 }
 
 .red:hover {
@@ -93,10 +89,12 @@ button {
   transition: 0.5s;
 }
 .red {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: 0.3s;
 }
 
 .darkred:hover {
@@ -107,10 +105,12 @@ button {
 }
 
 .darkred {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: 0.3s;
 }
 
 .purple:hover {
@@ -120,10 +120,12 @@ button {
   transition: 0.5s;
 }
 .purple {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: 0.3s;
 }
 
 .blue:hover {
@@ -134,11 +136,12 @@ button {
 }
 
 .blue {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 
 .white2:hover {
@@ -149,11 +152,12 @@ button {
 }
 
 .white2 {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 
 .pink:hover {
@@ -164,11 +168,12 @@ button {
 }
 
 .pink {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 
 .black:hover {
@@ -179,11 +184,12 @@ button {
 }
 
 .black {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 
 .blue2:hover {
@@ -194,11 +200,12 @@ button {
 }
 
 .blue2 {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 
 .lightblue:hover {
@@ -209,11 +216,12 @@ button {
 }
 
 .lightblue {
-  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
   color: white;
-  width: 150px;
   text-align: center;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
 }
 h2 {
   text-align: center;
@@ -222,9 +230,11 @@ h2 {
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(background-photo.jpeg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background-photo.jpeg");
   background-size: cover;
   background-position: center 56%;
+  background-attachment: fixed;
 }
 footer {
   display: flex;
